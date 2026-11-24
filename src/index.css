@@ -36,7 +36,10 @@
   text-fill-color: transparent;
 }
 
-::webkit-scrollbar: none;
+::webkit-scrollbar{
+  background-color: transparent;
+  scrollbar-width: none;
+}
 
 .bg-blue-gradient {
   background: linear-gradient(
