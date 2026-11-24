@@ -36,9 +36,8 @@
   text-fill-color: transparent;
 }
 
-::webkit-scrollbar{
-  background-color: transparent;
-  scrollbar-width: none;
+::-webkit-scrollbar {
+  display: none;
 }
 
 .bg-blue-gradient {
